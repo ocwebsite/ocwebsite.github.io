@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<title>File system</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style_scripting.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+
+<h1><b>fs (FileSystem) Library</b></h1>
+<br>
+
+<p><b>fs.open([string]Path, [string]openMode)</b><br><br>Gives you a <a href="file.html">File</a> if it can open, open modes are 'w', 'r', 'a' a is like w but at the end of existing file<br></p>
+<p><b>fs.exist([string]Path)</b><br>Returns true if the path points to an existing file/directory</p>
+<p><b>fs.isdir([string]Path)</b><br>Returns true if the path is a directory</p>
+<p><b>fs.mkdir([string]Path)</b><br>Makes the directories</p>
+<p><b>fs.delete([string]Path)</b><br>Delete the file/directory at the path</p>
+<p><b>fs.copy([string]PathFrom, [string]PathTo)</b><br>Copy the file (can't copy directories)</p>
+<p><b>fs.delete([string]PathFrom, [string]PathTo)</b><br>Moves the file to an other location (can't copy directories)</p>
+
+<p><b>fs.files([string]Path)</b><br>Returns a table with all file paths in that folder<br>
+<p><b>fs.directories([string]Path)</b><br>Returns a table with all file paths in that folder<br>
+
+<p><b>fs.stats([string]Path)</b><br>Returns a table with information on the file<br>
+The Stats table (s will represent a Stats table)<br>
+s.size -- the size in bytes of the file<br>
+s.readtime -- the last time the file was accessed (unix time)<br>
+s.writetime -- the last time the file was modified (unix time)<br>
+s.statustime -- the last time the file's status was changed (unix time)<br>
+</p>
+
+</body>

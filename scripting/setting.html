@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<title>Setting</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style_scripting.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+<body>
+<h1>Setting</h1>
+
+<h3>A setting holds value for the ui to change and the config to save/load</h3>
+
+<p>We will pretend that "setting" is a Setting</p>
+<br>
+
+<p><b>setting.type</b><br>
+The type of that setting, <b><a href="setting_type.html">Setting Types</a></b></p>
+
+<p><b>setting.name</b><br>
+The display name of the Setting</p>
+
+<p><b>setting.saveName</b><br>
+The name used to save/retrive this Setting, no spaces</p>
+
+<p><b>setting.invisible</b><br>
+Is true if the ui should hide this Setting</p>
+<br>
+
+<h3>Changing/Reading values from Settings</h3>
+<p>You <b>MUST</b> read the type before doing anything,<br>
+to make sure you are not affecting/setting something you shouldn't<br><br>
+
+You can set the value normally, it will adapt depending on its<br>
+type to set the apropriate value to your new value</p>
+<br>
+<h3>Value/Content of the setting</h3>
+
+<p><b>setting.value</b><br>
+Will give you the value of the Setting depending on its type<br>
+You can change the value too</p>
+
+<p><b>setting.default</b><br>
+Will give you the default value of the Setting depending on its type<br>
+You can change it too if you want</p>
+
+<h3>Minimum/Maximum values</h3>
+<h4>Not every type has a minimum/maximum value</h4><br>
+<a href="/scripting/setting_type.html">Information can be found there</a>
+<br><br>
+
+<p><b>setting.min</b><br>
+The mainimum value of that Setting, you can change that value.</p>
+
+<p><b>setting.max</b><br>
+The maximum value of that Setting, you can change that value.
+
+
+</body>

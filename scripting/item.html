@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>Item</title>
+       <link rel="stylesheet" href="../style.css">
+       <link rel="stylesheet" href="style_scripting.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1><b>Item Table</b></h1>
+<p>We will pretend that "item" is an Item</p>
+<br>
+
+<p><b>item.count</b><br>The amount of item that stack holds (number)</p>
+<p><b>item.location</b><br>Used by some client functions taking an item, you should not tamper/"guess" this (number)</p>
+<p><b>item.id</b><br>The runtime ID of the Item (number)</p>
+<p><b>item.name</b><br>The name of the block, (the one you would use in /give) (string)</p>
+<p><b>item.maxStackCount</b><br>The maximum amount of item in one stack (number)</p>
+<p><b>item.maxDamage</b><br>The maximum durability (number)</p>
+<p><b>item.data or item.durability</b><br> Gives you data/durability of the item (number)</p>
+<p><b>item.customName</b><br>The custom name of the item, ex: anvil rename (string)</p>
+
+<p><b>item.enchant</b><br>The enchantements of an item ItemEnchant (see below) (table)</p>
+
+<br><br><br>
+<h3>ItemEnchant Table</h3>
+<p> The enchantement table has 3 fields<br>
+ for this exemple "e" will be an enchant, the sharpness one<br>
+ <br>
+ [number] <b>e.id</b>    is the id    of the enchant, ex: 9<br>
+ [number] <b>e.level</b> is the level of the enchant, ex: 5<br>
+ [ string ] <b>e.name</b>  is the name of the enchant, ex: sharpness <br><br>
+ Here is how to iterate trough them<br>
+ <br>
+ for key,value in pairs(item.enchant) do<br>
+        print(value.id .. "  " .. value.level .. ", or: " .. value.name)<br>
+ end
+</p>
+</body>
+</html>

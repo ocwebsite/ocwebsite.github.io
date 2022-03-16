@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<title>Attributes</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style_scripting.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+
+<h1><b>Attributes Table</b></h1>
+<p>We will pretend that "attributes" is an Attribute Table</p>
+<p>Holds a list of <a href="attribute.html">Attribute</a></p>
+<br>
+
+<p><b>attribute.size</b><br>The amount of attributes in the list (number)</p>
+<p><b>attribute.name([string])</b><br><br> Returns the attribute <a href="attributeid.html">Names can be found here</a> (<a href="attribute.html">Attribute</a> / nil if invalid)</p>
+<p><b>attribute.id([number])</b><br><br> Returns the attribute <a href="attributeid.html">IDs can be found here</a> (<a href="attribute.html">Attribute</a> / nil if invalid)</p>
+<p><b>attribute.at([number])</b><br> Returns the attribute at the position, use for iteration only, not static/reliable (<a href="attribute.html">Attribute</a> / nil if invalid)</p>
+<br>
+<h4>You can Iterate trough the list like this</h4>
+<p>
+    for i,attributes.size do<br>
+        print(attributes.at(i).id .. ": " .. attributes.at(i).name)<br>
+    end
+</p>
+</body>

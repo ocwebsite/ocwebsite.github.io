@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<title>Color setting</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style_scripting.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+
+<h1><b>Color Setting</b></h1>
+<h3>A color setting is different from normal colors</h3>
+
+<p>We will pretend that "color" is a Color Setting</p>
+
+<p>The value of the color values range from 0.0 and 1.0<br>
+you can get this number from rgb by doing:  color_value/255<br>
+(154 being an exemple value)</p>
+
+<br>
+<p><b>color.r = 1.0</b><br>
+The intensity of the red</p>
+
+<p><b>color.g = 0.0</b><br>
+The intensity of the green</p>
+
+<p><b>color.b = 0.0</b><br>
+The intensity of the blue</p>
+
+<p><b>color.a = 1.0</b><br>
+The opacity/transparency</p>
+
+<br>
+<h3>As this is a Color Setting, it has some extra fields</h3>
+
+<p><b>color.alphaVisible = true</b><br>
+Is true if the opacity slider should be hidden away from the user</p>
+
+<p><b>color.rainbow = false</b><br>
+Is true when the color is rainbow (or RGB)</p>
+
+<p><b>color.rainbowSpeed = 0.003</b><br>
+Speed at which rainbow (or RGB) alternates.<br>
+0.003 is the default value and 0 would probably crash or be static</p>
+
+
+<br>
+<h3>Extras</h3>
+
+<p>You could create the value to assign like this:<br>
+color = {1, 0, 0, 0.5}<br>
+you could also add (in the same order the 3 extra fields)<br>
+like alphaVisible then rainbow then rainbowSpeed</p>
+
+<p>Or just edit them by storing it, this allows you to change only<br>
+the values you want and left the others untouched<br>exemple changing to blue without touching other values
+:<br>
+local color = exemple.getColorSetting()<br>
+color.r = 0<br>
+color.g = 0<br>
+color.b = 1</p>
+
+
+</body>
