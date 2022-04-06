@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Onix Client</title>
+        <link rel="stylesheet" href="style.css">
+        <meta content="Onix Client" property="og:title">
+        <meta content="Onix Client" property="og:site_name">
+        <meta content="Onix Client is an all-in-one legit PVP client for Minecraft Windows 10. Supported from 1.16.40 to 1.18.12." property="og:description">
+        <meta content="https://ocwebsite.github.io/" property="og:url">
+        <meta content="https://ocwebsite.github.io/assets/banner.jpg" property="og:image">
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="#008FC1" data-react-helmet="true" name="theme-color">
+    </head>
+    <body>
+        <div class="popup" id="popup">
+            <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
+        </div>
+        <div class="topnav" id="topnav">
+            <img height="35px" src="assets/logo.png">
+            <a href="index.html">Main</a>
+            <a href="https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe">Download</a>
+            <a href="https://discord.com/invite/onixclient">Discord</a>
+            <a href="https://hugonothere.github.io/OnixClientFaq/">FAQ</a>
+            <a class="active" href="license.html">License</a>
+        </div>
+        <div class="grid-container-l" id="grid-container">
+            <div class="post-1-l">
+                <h1>The Onix Client License</h1>
+            </div>
+            <div class="post-2-l">
+                <p>Definitions: Us/We (the Onix Client developers), You (you reading this/using Onix Client)<br>
+                We own the Onix Client name, the logo, and its programs/binaries.<br>
+                You are subject to the following terms:<br>
+                - You <b>can</b>:<br></p>
+                <ul style="list-style-type: none;">
+                <li><p>• Talk about the client</p></li>
+                <li><p>• Show the logo in your YouTube thumbnail(s)</p></li>
+                <li><p>• Use the logo to showcase the client in rewiews, showcases, etc</p></li>
+                </ul>
+                <p>- You <b>cannot</b>:</p>
+                <ul style="list-style-type: none;">
+                <li><p>• Use the logo and name for your own product(s) without permission from us</p>
+                <li><p>• Claim the logo and name as yours</p>
+                <li><p>• Promote your product with the logo and name</p>
+                <li><p>• Reupload or redistribute the client/launcher in different websites <br>(Mediafire, Dropbox, your own Discord server, etc.)</p>
+                <li><p>• Distribute a modified version of the client/launcher</p>
+                <li><p>• Use, distribute, and/or own older versions of any of our products</p>
+                </ul><p>
+                <b>Failure to comply with these terms will result in your content being taken down.</b><br><br>
+                Extra notes: We don't want to be a boring company. We just want to protect our logo and name.<br>
+                Any questions should be asked in <a href="https://discord.com/channels/814195071356370977/945717582269399050" style="text-decoration: none;">#make-a-ticket</a>.</p>
+            </div>
+        </div>
+        <script>
+            let popup = document.getElementById("popup")
+            let topnav = document.getElementById("topnav")
+            let gc = document.getElementById("grid-container")
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+            {
+                popup.style.display="block";
+                topnav.style.display="none";
+                gc.style.display="none";
+            }
+        </script>
+    </body>
+</html>

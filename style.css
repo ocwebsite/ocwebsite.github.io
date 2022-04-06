@@ -117,6 +117,48 @@ a {
 	white-space: nowrap;
 }
 
+.grid-container-l {
+  display: grid;
+  grid-template-areas: "post-1-l post-1-l post-1-l post-1-l"
+                       "post-3-l post-2-l post-2-l post-4-l"
+                       "post-3-l post-2-l post-2-l post-4-l"
+                       "post-3-l post-2-l post-2-l post-4-l"
+                       "post-3-l post-2-l post-2-l post-4-l";
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.post-1-l {
+	grid-area: post-1-l;
+	text-align: center;
+}
+
+.post-2-l {           
+	grid-area: post-2-l;
+	font-size: 14px;
+	text-align: left;
+	padding: 10px;
+	background-color: #2f3136;
+	border-width: 1px;
+	border-color: #202225;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+.post-3-l {           
+	grid-area: post-3-l;
+	font-size: 17px;
+	text-align: center;
+	padding: 10px;
+}
+
+.post-4-l {           
+	grid-area: post-4-l;
+	font-size: 17px;
+	text-align: center;
+	padding: 10px;
+}
+
 .post-1 {
 	grid-area: post-1;
 	text-align: center;
