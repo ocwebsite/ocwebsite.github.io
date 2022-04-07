@@ -13,7 +13,7 @@ let popup = document.getElementById("popup")
 const element = document.getElementById('unblock_text')
 
 element.addEventListener("click", () => {
-	alert('Unblocked mode activated');
+	//alert('Unblocked mode activated');
     blocked = false;
     popup.style.display="none";
     topnav.style.display="";
