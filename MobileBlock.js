@@ -12,7 +12,7 @@ const element = document.getElementById('unblock_text')
 
 element.addEventListener("click", () => {
 	//alert('Unblocked mode activated');
-    popup.style.display="none";
-    topnav.style.display="";
-    gc.style.display=""
+    //popup.style.display="none";
+    //topnav.style.display="";
+    //gc.style.display=""
 });
