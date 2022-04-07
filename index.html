@@ -70,16 +70,6 @@
                 <p>Launch does nothing - try <b>disabling</b> your antivirus/<b>excluding</b> the launcher.</p>
             </div>
         </div>
-        <script>
-            let popup = document.getElementById("popup")
-            let topnav = document.getElementById("topnav")
-            let gc = document.getElementById("grid-container")
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
-            {
-                popup.style.display="block";
-                topnav.style.display="none";
-                gc.style.display="none";
-            }
-        </script>
+        <script src="MobileBlock.js"></script>
     </body>
 </html>
