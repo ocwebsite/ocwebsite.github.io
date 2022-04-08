@@ -6,9 +6,9 @@ let sad_face = document.getElementById('unblock_text');
 
             if (!navigator.userAgent.includes("Windows"))
             {
-                popup.style.display="block";
-                topnav.style.display="none";
-                gc.style.display="none";
+             //   popup.style.display="block";
+               // topnav.style.display="none";
+             //   gc.style.display="none";
             }            
 
 sad_face.addEventListener("click", () => {
