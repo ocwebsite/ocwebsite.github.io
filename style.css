@@ -68,6 +68,10 @@ a {
 	color: rgb(122,122,245);
 }
 
+b {
+	color: #008fc1;
+}
+
 .topnav {
     background-color: #252525;
     overflow: hidden;
@@ -106,6 +110,18 @@ a {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-container-l {
+  display: grid;
+  grid-template-areas: "post-1-l post-1-l post-1-l post-1-l"
+                       "void1 post-2-l post-2-l void2"
+                       "void1 post-2-l post-2-l void2"
+                       "void1 post-2-l post-2-l void2"
+                       "void1 post-2-l post-2-l void2"
+                       "void1 post-2-l post-2-l void2";
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .grid-container a {
 	text-decoration: none;
 	border-radius: 5px;
@@ -115,17 +131,6 @@ a {
 	position: relative;
 	box-shadow: 0px 1px 5px #0ff;
 	white-space: nowrap;
-}
-
-.grid-container-l {
-  display: grid;
-  grid-template-areas: "post-1-l post-1-l post-1-l post-1-l"
-                       "post-3-l post-2-l post-2-l post-4-l"
-                       "post-3-l post-2-l post-2-l post-4-l"
-                       "post-3-l post-2-l post-2-l post-4-l"
-                       "post-3-l post-2-l post-2-l post-4-l";
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .post-1-l {
@@ -143,20 +148,6 @@ a {
 	border-color: #202225;
 	border-style: solid;
 	border-radius: 4px;
-}
-
-.post-3-l {           
-	grid-area: post-3-l;
-	font-size: 17px;
-	text-align: center;
-	padding: 10px;
-}
-
-.post-4-l {           
-	grid-area: post-4-l;
-	font-size: 17px;
-	text-align: center;
-	padding: 10px;
 }
 
 .post-1 {
@@ -183,10 +174,6 @@ a {
 	font-size: 17px;
 	text-align: center;
 	padding: 20px;
-}
-
-b {
-	color: #008fc1;
 }
 
 .popup {
