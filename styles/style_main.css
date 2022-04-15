@@ -6,14 +6,6 @@ html, body {
 	margin: 0;
 }
 
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
-  .codeblock {
-	  color: #ffffff;
-  }
-
 h1 {
 	margin-block-start:0.2em;
 	margin-block-end:0.6em;

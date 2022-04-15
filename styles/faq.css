@@ -913,3 +913,11 @@ a:hover {
 	color: #819198
 }
 
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+
+.codeblock {
+	color: #88ffff;
+}
