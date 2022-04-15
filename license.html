@@ -11,7 +11,7 @@
         <meta content="summary_large_image" name="twitter:card">
         <meta content="#008FC1" data-react-helmet="true" name="theme-color">
     </head>
-    <body>
+    <body id="body">
         <div class="popup" id="popup">
             <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
             <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
@@ -23,6 +23,12 @@
             <a href="https://discord.com/invite/onixclient">Discord</a>
             <a href="faq.html">FAQ</a>
             <a class="active" href="license.html">License</a>
+            <img src="assets/slim_t.png" height="33px" alt="Slim text" style="float:right;">
+            <label class="switch">
+                <input type="checkbox" id="fontchange">
+                <span class="slider"></span>
+            </label>
+            <img src="assets/t.png" height="33px" alt="Bold text" style="float:right;">
         </div>
         <div class="grid-container-l" id="grid-container">
             <div class="post-1-l">
@@ -57,5 +63,6 @@
             </div>
         </div>
         <!---script src="MobileBlock.js"></script--->
+        <script src="scripts/FontSwitch.js"></script>
     </body>
 </html>
