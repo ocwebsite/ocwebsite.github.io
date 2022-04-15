@@ -190,6 +190,7 @@ b {
 	display: inline-block;
 	position: relative;
 	height: 34px;
+	float: right;
 	width: 60px;
 }
 
