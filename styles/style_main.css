@@ -6,6 +6,14 @@ html, body {
 	margin: 0;
 }
 
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+  .codeblock {
+	  color: #88ffff
+  }
+
 h1 {
 	margin-block-start:0.2em;
 	margin-block-end:0.6em;
@@ -182,7 +190,6 @@ b {
 	display: inline-block;
 	position: relative;
 	height: 34px;
-	float: right;
 	width: 60px;
 }
 
