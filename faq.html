@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+	
     <head>
         <title>Onix Client - FAQ</title>
-        <link rel="stylesheet" href="styles/style_main.css">
+        <link rel="stylesheet" href="style.css">
         <meta content="Onix Client FAQ" property="og:title">
         <meta content="Onix Client - Frequently Asked Question" property="og:site_name">
         <meta content="Onix Client Frequently Asked Question" property="og:description">
@@ -27,6 +28,18 @@
     code {
 	color: #ebab34;
 	background-color: #454545;
+	}
+	table {
+	border-collapse: collapse;
+	}
+	table th, table td{
+	padding: 5px;
+	border: solid 1px #777;
+	color:white;
+	}
+	table th{
+	background-color:blue;
+	color:white;
 	}
 	</style>
         	
@@ -76,6 +89,94 @@
     <h3>The launcher didn't auto update. How do I fix this?</h3>
     <p>Press the Windows Key + R and paste the following:<br>
     <p><code>cmd.exe /c del "%localappdata%\Onix Launcher\OnixClient.dll" && pause</code></p>
-    <p>This will delete the old Onix Client dll, and the launcher will install the new one on launch.</p>
+    <p>This will delete the old Onix Client dll, and the launcher will install the new one on launch.</p><br><br>
+    <h3>When I open the client, I get an error saying: <code>You are attempting to open a file of type "system file"</code>. Why does this happen?</h3>
+    <p>This is because you are trying to open the DLL, which only works with other injectors. The DLL file cannot be opened and is not meant to be either. If you want to use this method please check out the Onix injector. If you use a third-party injector, we are not responsible for anything that might happen.</p><br><br> 
+    <h3>Can I turn off or customize the "OnixClient on top!" splash text?</h3>
+    <p>No. We use this to make diagnosing problems much easier for our support team.</p><br><br>
+    <h3>When I inject, my game crashes. Why does this happen?</h3>
+    <p>Your game is most likely on an unsupported version. If you are below 1.16.40, you will need to upgrade to a higher version. If you are above the latest supported version, you will need to downgrade. You can downgrade (or upgrade) using <a href="https://github.com/MCMrARM/mc-w10-version-launcher">MCLauncher</a>.</p>
+    <h4>List of supported versions:</h4>
+    <table>
+    	<tr>
+    	    <th>1.18</th>
+    		<th>1.17</th>
+    		<th>1.16</th>
+    	</tr>
+    	<tr>
+    		<td>1.18.12</td>
+    		<td>1.17.41</td>
+    		<td>1.16.221</td>
+    	</tr>
+    	<tr>
+    		<td>1.18.10</td>
+    		<td>1.17.40</td>
+    		<td>1.16.220</td>
+    	</tr>
+    	<tr>
+    		<td>1.18.2</td>
+    		<td>1.17.34</td>
+    		<td>1.16.210</td>
+    	</tr>
+    	<tr>
+    		<td>1.18.1</td>
+    		<td>1.17.32</td>
+    		<td>1.16.201</td>
+    	</tr>
+    	<tr>
+    		<td>1.18.0</td>
+    		<td>1.17.30</td>
+    		<td>1.16.200</td>
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td>1.17.11</td>
+    		<td>1.16.100(partial)</td>
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td>1.17.10</td>
+    		<td>1.16.40</td>
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td>1.17.2</td>
+    		<td></td>
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td>1.17.0</td>
+    		<td></td>
+    	</tr>
+    </table><br><br>
+    <h3>Why does it say "as nobody (HOW)" on Discord instead of my Gamertag?</h3>
+    <p>Make sure you have the Xbox Console Companion, which you can download <a href="https://www.microsoft.com/en-us/p/xbox-console-companion/9wzdncrfjbd8#activetab=pivot:overviewtab">here</a>. Log in, and it should show up after restarting the launcher.</p>
+    <p>If you have already downloaded Xbox Console Companion, log out and log back in to fix it.</p>
+    <br>
+    <h3>I clicked Launch and I see the "OnixClient on top!" splash text. Now what?</h3>
+    <p>Go to a world or server and press L or Insert, then you&#39;ll be able to see the Client Settings button. To activate modules, right-click on them.</p>
+    <h2>Common launcher errors</h2>
+    <ul>
+    	<h3 id="-architecture-error">🏢 Architecture Error</h3>
+    	<p><img src="https://user-images.githubusercontent.com/71997480/155266817-c6c7fb22-56f8-4c3c-98d9-6c3fc8849669.png" alt="Architecture Error V2"></p>
+    	<p>You have a 32-bit version of Minecraft. This is usually branded under FPS Boosting or Lag-Free AppX files. These are not compatible with Onix Client.</p>
+    	 
+    	 
+    	<h3 id="-unsupported-version">⛔ Unsupported Version</h3>
+    	<p><img src="https://user-images.githubusercontent.com/64127681/139366307-d319f1ea-36c3-4978-b8ba-ad3cd891141e.png" alt="Unsupported Version"></p>
+    	<p>You have a version of Minecraft that is not supported. You can see this list of supported versions <a href="https://github.com/HugoNotHere/OnixClientFaq#list-of-supported-versions">here</a>.</p>
+    	 
+    	 
+    	<h3 id="-injection-error">💉 Injection Error</h3>
+    	<p><img src="https://user-images.githubusercontent.com/64127681/139366443-21a01000-36c3-44a0-842e-30030bdf31d5.png" alt="Injection Error"></p>
+    	<p>An error occurred while trying to inject Onix Client. This may be due to your antivirus, however, we cannot quite pinpoint this issue to a cause. Please open a ticket if you have issues resolving this problem.</p>
+    	 
+   	</ul>
+    <h3>How can i get Onix UI?</h3>
+    <p>It's being remade as of recently, You'll have to wait.</p>
+    <h2>💰 How can I support Onix and the client?</h2>
+    <p>You can support us by <a href="https://www.patreon.com/onixclient">becoming a patron</a>. The perks are listed in the tiers. If you buy a tier, please don&#39;t hesitate to open a ticket to get your roles if the bot hasn&#39;t already synced them.</p>
+    
+    
 
 </html>
