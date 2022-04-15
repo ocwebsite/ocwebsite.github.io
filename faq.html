@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
     <head>
         <title>Onix Client - FAQ</title>
         <link rel="stylesheet" href="styles/style_main.css">
@@ -24,8 +23,18 @@
             <a href="https://discord.com/invite/onixclient">Discord</a>
             <a class="active" href="faq.html">FAQ</a>
         </div>
+        <style>
+    code {
+	color: #ebab34;
+	background-color: #454545;
+	}
+	</style>
+        	
     </body>
     <h1>
+        <a href="https://discord.gg/onixclient/">
+            <img width=60 height=60 src="https://raw.githubusercontent.com/HugoNotHere/OnixClientFaq/main/onixlogosmall.png" alt="Onix Client Logo">
+        </a>
     Onix Client FAQ
     </h1>
     <p>Onix Client is a legit modification for Minecraft Bedrock Edition. Sometimes, you may need help setting it up, and this is what the FAQ is for. This has all of the common questions about Onix Client, installation, and usage. If you have any suggestions for this page, please fork this repository, edit it, and then create a pull request. Finally, if you have any other questions please join the Discord server and create a ticket there. <strong>Note: Before using the client make sure you agree with the Onix Client License which is found at the bottom of this page or <a href="https://ocwebsite.github.io/license.html">here</a>.</strong> </p>
@@ -56,9 +65,17 @@
         <ul>
         	<p>Right click the Start button and click "System", which takes you to this screen:</p>
             <p> <img src="https://user-images.githubusercontent.com/64127681/140582244-70a847bf-a2fb-41dc-ae0c-320090bbf23e.png" alt=""></p>
-            <p>If it says <code>64-bit operating system, x64-based processor</code>, you can use Onix Client.</p>
-
-        </ul>
+            <li>If it says <code>64-bit operating system, x64-based processor</code>, you can use Onix Client.</li>
+            <li>If it says <code>32-bit operating system, x64-based processor</code>, you need to install the 64-bit version of Windows. We will not be showing you how to do that here, so go do your research.</li>
+            <li>If it says <code>32-bit operating system, <strong><em>x86</em></strong>-based processor</code>, unfortunately, you can't use Onix Client.</li>
+            <li>If your PC is ARM or Qualcomm based, you can't use Onix Client either.</li>
+         </ul>
     </ul>
+    <h3><strong>We have no plans to support any devices other than Windows PCs. Don&#39;t ask for it.</strong></h3>
+    <br><br>
+    <h3>The launcher didn't auto update. How do I fix this?</h3>
+    <p>Press the Windows Key + R and paste the following:<br>
+    <p><code>cmd.exe /c del "%localappdata%\Onix Launcher\OnixClient.dll" && pause</code></p>
+    <p>This will delete the old Onix Client dll, and the launcher will install the new one on launch.</p>
 
 </html>
