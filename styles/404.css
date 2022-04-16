@@ -1,7 +1,7 @@
 body {
     background-color: #2d2d37;
     font-family: 'Roboto', 'sans-serif';
-    color: white;
+    color: #dedef5;
 }
 
 main {
@@ -14,7 +14,7 @@ main {
 .header404 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     font-size: 60px;
-    color: white;
+    color: #dedef5;
 }
 
 .content404 {
