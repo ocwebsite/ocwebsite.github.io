@@ -238,4 +238,8 @@ input:checked + .slider:before {
 	border-style: solid;
 	border-radius: 4px;
 	border-width: 1px;
+	vertical-align: middle;
+	align-items: center;
+	font-size: 30px;
+	size: 50px;
 }
