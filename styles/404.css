@@ -1,19 +1,27 @@
-body{
-    background-color: rgb(45,45,55);;
+body {
+    background-color: #2d2d37;
     font-family: 'Roboto', 'sans-serif';
-    color: white;
+    color: #dedef5;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.header404{
+
+.header404 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     font-size: 60px;
-    color: white;
+    color: #dedef5;
 }
-.content404{
+
+.content404 {
     text-align: center;
+}
+
+a {
+    color: #008fc1;
+    text-decoration: none;
 }
