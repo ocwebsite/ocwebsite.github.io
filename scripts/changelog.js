@@ -15,4 +15,4 @@ var text = FileHelper.readStringFromFileAtPath("./misc/changelog.txt");
 
 var des = document.getElementById("descr");
 
-des.textContent = text;
+des.setAttribute("content", text)
