@@ -1,6 +1,4 @@
-function FileHelper()
-{
-    FileHelper.readStringFromFileAtPath = function(pathOfFileToReadFrom)
+function readFile(pathOfFileToReadFrom)
     {
         var request = new XMLHttpRequest();
         request.open("GET", pathOfFileToReadFrom, false);
@@ -9,10 +7,10 @@ function FileHelper()
 
         return returnValue;
     }
-}
 
-var text = FileHelper.readStringFromFileAtPath("./misc/changelog.txt");
+var text = readFile("./misc/changelog.txt");
 
 var des = document.getElementById("descr");
 
+alert(text)
 des.setAttribute("content", text)
