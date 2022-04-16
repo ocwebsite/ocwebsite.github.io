@@ -87,7 +87,7 @@ b {
 
 .grid-container {
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	grid-template-areas:
 	"post-1 post-1 post-1 post-1"
 	"post-2 post-2 post-3 post-3"
@@ -174,8 +174,8 @@ b {
 	border-style: solid;
 	border-radius: 4px;
 	border-width: 1px;
-        width: 100%;
-        height: auto;
+	height: auto;
+	width: 100%;
 }
 
 .switch {
