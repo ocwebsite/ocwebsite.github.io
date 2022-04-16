@@ -1,0 +1,18 @@
+body{
+    background-color: #008fc1;
+    font-family: 'Roboto', 'sans-serif';
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header404{
+    font-family: 'Chango', cursive;
+    font-size: 48px;
+}
+.content404{
+    text-align: center;
+}
