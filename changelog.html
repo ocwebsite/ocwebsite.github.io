@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Onix Client</title>
+        <link rel="stylesheet" href="styles/style_main.css">
+        <link rel="stylesheet" href="styles/dropdown.css">
+        <meta content="Onix Client Changelog" property="og:title">
+        <meta content="Onix Client" property="og:site_name">
+        <meta content="The latest Onix Client Changelog" property="og:description">
+    <embed src="misc/changelog.txt">
+        </meta>
+        <meta content="https://ocwebsite.github.io/changelog" property="og:url">
+        <meta content="https://ocwebsite.github.io/assets/banner.jpg" property="og:image">
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="#008FC1" data-react-helmet="true" name="theme-color">
+    </head>
+    <body id="body">
+        <div class="popup" id="popup">
+            <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
+            <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
+        </div>
+        <div class="topnav" id="topnav">
+            <img src="assets/logo.png" alt="Logo">
+            <a href="/index">Main</a>
+            <a id="download">Download</a>
+            <a href="https://discord.com/invite/onixclient">Discord</a>
+            <a href="/faq">FAQ</a>
+            <a href="/license">License</a>
+            <a class="active" href="/changelog">Changelog</a>
+            <img src="assets/slim_t.png" height="33px" alt="Slim text" style="float:right;">
+            <label class="switch">
+                <input type="checkbox" id="fontchange">
+                <span class="slider"></span>
+            </label>
+            <img src="assets/t.png" height="33px" alt="Bold text" style="float:right;">
+        </div>
+        <div class="grid-container" id="grid-container">
+            <embed src="misc/changelog.txt" class="code_embed">
+        </div>
+        <script src="scripts/MobileBlock.js"></script>
+        <script src="scripts/FontSwitch.js"></script>
+    </body>
+</html>
