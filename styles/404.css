@@ -1,6 +1,7 @@
 body{
     background-color: rgb(45,45,55);;
     font-family: 'Roboto', 'sans-serif';
+    color: white;
 }
 main{
     display: flex;
@@ -11,6 +12,7 @@ main{
 .header404{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     font-size: 60px;
+    color: white;
 }
 .content404{
     text-align: center;
