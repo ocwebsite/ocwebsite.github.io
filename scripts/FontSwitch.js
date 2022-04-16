@@ -5,5 +5,5 @@ checkbox.addEventListener("click", () =>{
     if (checkbox.checked)
         body.style.fontFamily = "Times New Roman";
     else
-        body.style.fontFamily = "'Roboto', sans-serif"; //more fonts when
+        body.style.fontFamily = "'Roboto', sans-serif"; //more fonts when?
 });
