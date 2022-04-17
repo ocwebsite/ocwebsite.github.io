@@ -9,7 +9,7 @@ function readFile(pathOfFileToReadFrom)
     }
 
 
-var text = "ok"//readFile("./misc/changelog.txt");
+var text = readFile("./misc/changelog.txt");
 
 var head = document.getElementById("header");
 var changelogtext = document.getElementsByClassName("changelog");
@@ -21,7 +21,7 @@ if (changelogtext == null){
 }
 
 window.onload = function(){
-changelogtext[0].textContent = "yes?";
+changelogtext[0].textContent = text;
 }
 
 alert(text)
