@@ -245,3 +245,16 @@ input:checked + .slider:before {
 	font-size: 30px;
 	size: 50px;
 }
+
+.changelog_codeblock{
+	background-color: #2f3136;
+	border-color: #202225;
+	border-style: solid;
+	border-radius: 4px;
+	border-width: 1px;
+	height: auto;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: max-content;
+}
