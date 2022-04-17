@@ -1,24 +1,24 @@
-Changelog for Onix Client 2.70
-
-Client:
-- Updated to 1.18.10 and 1.18.12
-- Fixed crashes related to AutoGG
-
-QOL fixes/tweaks:
-- Re-enabled FPS showing in the Java Debug Menu
-- Fixed block position in Java Debug Menu occasionally reading inaccurately
-- Speed display now works properly when riding entities
-- Increased the creative tools block reach cap from 12 to 25
-- Renamed and clarified all module descriptions
-- Fixed rounding errors in Direction HUD
-- Fixed some instances where mod menu text would render invisible on 1.17.40 and 1.17.41
-
-Launcher:
-- Removed the taskbar icon
-- Fixed Discord Presence not updating because of the taskbar icon
-- Added logs for troubleshooting purposes, which are located in %localappdata%\Onix Launcher\Logs
-- RPC Error has been moved to the logs, and is no longer displayed as an error message
-- Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo
-
-Miscellaneous:
-creative tools freecam is gone from 1.18.10/1.18.12 and future versions
+Changelog for Onix Client 2.70[n]
+[n]
+Client:[n]
+- Updated to 1.18.10 and 1.18.12[n]
+- Fixed crashes related to AutoGG[n]
+[n]
+QOL fixes/tweaks:[n]
+- Re-enabled FPS showing in the Java Debug Menu[n]
+- Fixed block position in Java Debug Menu occasionally reading inaccurately[n]
+- Speed display now works properly when riding entities[n]
+- Increased the creative tools block reach cap from 12 to 25[n]
+- Renamed and clarified all module descriptions[n]
+- Fixed rounding errors in Direction HUD[n]
+- Fixed some instances where mod menu text would render invisible on 1.17.40 and 1.17.41[n]
+[n]
+Launcher:[n]
+- Removed the taskbar icon[n]
+- Fixed Discord Presence not updating because of the taskbar icon[n]
+- Added logs for troubleshooting purposes, which are located in %localappdata%\Onix Launcher\Logs[n]
+- RPC Error has been moved to the logs, and is no longer displayed as an error message[n]
+- Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo[n]
+[n]
+Miscellaneous:[n]
+creative tools freecam is gone from 1.18.10/1.18.12 and future versions[n]
