@@ -112,7 +112,7 @@ b {
 
 .grid-container a {
 	padding: 10px 14px 10px 10px;
-	box-shadow: 0px 1px 5px #0ff;
+	box-shadow: 0 1px 5px #0ff;
 	text-decoration: none;
 	margin-bottom: 25px;
 	white-space: nowrap;
