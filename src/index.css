@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .navbar {
+        @apply grid xl:grid-cols-2 text-center place-items-center items-center gap-[1rem] bg-[#252525] p-[1.25rem];
+    }
+
+    .nav-btn {
+        @apply bg-[#353535] hover:bg-[#008fc1] px-[1.25rem] py-[0.75rem] mx-[0.5rem] rounded-md drop-shadow-xl text-white font-semibold duration-300
+    }
+
+    .nav-btn-selected {
+        @apply bg-[#008fc1] px-[1.25rem] py-[0.75rem] mx-[0.5rem] rounded-md drop-shadow-xl text-white font-semibold duration-300
+    }
+
+    .download {
+        @apply flex items-center justify-center text-[rgba(255,255,255,0.7)] bg-[rgba(255,255,255,0.08)] border-[rgba(255,255,255,0.2)] border-solid border-[1px] rounded-[0.3rem] mb-[1rem] py-[0.75rem] px-[2.5rem]
+    }
+
+    .logo {
+        @apply inline-block font-bold text-3xl px-[1rem] text-white drop-shadow-xl
+    }
+
+    .article {
+        @apply block text-left text-white font-light text-xl lg:text-2xl xl:text-3xl drop-shadow-xl
+    }
+
+    .highlighted {
+        @apply inline-block text-[#008fc1] font-normal
+    }
+
+    .wrapper {
+        @apply mx-[2.5rem] md:mx-[5rem] lg:mx-[10rem] xl:mx-[15rem] 2xl:mx-[30rem]
+    }
+    
+    body {
+        @apply bg-[#2d2d2d]
+    }
+
+}

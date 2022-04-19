@@ -1,97 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Onix Client</title>
-        <link rel="stylesheet" href="styles/style_main.css">
-        <link rel="stylesheet" href="styles/dropdown.css">
-        <meta content="Onix Client" property="og:title">
-        <meta content="Onix Client" property="og:site_name">
-        <meta content="Onix Client is an all-in-one legit PVP client for Minecraft Windows 10. Supported from 1.16.40 to 1.18.12." property="og:description">
-        <meta content="https://ocwebsite.github.io/" property="og:url">
-        <meta content="https://ocwebsite.github.io/assets/banner.jpg" property="og:image">
-        <meta content="summary_large_image" name="twitter:card">
-        <meta content="#008FC1" data-react-helmet="true" name="theme-color">
     </head>
-    <body id="body">
-        <div class="popup" id="popup">
-            <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
-            <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
-        </div>
-        <div class="topnav" id="topnav">
-            <img src="assets/logo.png" alt="Logo">
-            <a class="active" href="/index">Home</a>
-            <a href="#" id="download">Download</a>
-            <a href="https://discord.com/invite/onixclient">Discord</a>
-            <a href="/faq">FAQ</a>
-            <a href="/license">License</a>
-            <a href="/changelog">Changelog</a>
-            <a href="/patreon">Patreon</a>
-            <!--div class="dropdown">
-                <button class="dropbtn">fonts
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                <div class="dropdown-content">
-                  <a href="#">font</a>
-                  <a href="#">font 2</a>
-                  <a href="#">font 3</a>
-                </div>
-              </div-->
-            <img src="assets/slim_t.png" height="33px" alt="Slim text" style="float:right;">
-            <label class="switch">
-                <input type="checkbox" id="fontchange">
-                <span class="slider"></span>
-            </label>
-            <img src="assets/t.png" height="33px" alt="Bold text" style="float:right;">
-        </div>
-        <div class="grid-container" id="grid-container">
-            <div class="post-1">
-                <h1>Welcome to the Onix Client website</h1>
-            </div>
-            <div class="post-2">
-                <h2>Latest downloads</h2>
-                <p>It will most likely get detected as a virus, but it isn't one.</p>
-                <p>The current version of client is <b>2.70</b>.</p>
-                <p>Supported from <b>1.16.40</b> to <b>1.18.12</b> for</p>
-                <p>Minecraft <b>Win10 64 bit</b> (RENDERDRAGON)</p>
-                <div style="width: 100%; display: table;">
-                    <div style="display: table-row;">
-                        <div style="width: 450px; display: table-cell;">
-                            <p><a id="download2">Launcher</a></p>
-                        </div>
-                        <div style="width: 450px; display: table-cell;">
-                            <p><a href="https://github.com/notcarlton/OnixLauncher">Source code</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post-3">
-                <h2>How to use?</h2>
-                <p>Download the launcher, click on "Launch" join world/server,</p>
-                <p>press "<b>L</b>". Make sure to look properly, we also have an <b>FAQ</b>.</p>
-                <p>If you still need more assistance, you can</p>
-                <p>make a ticket on our support <b>Discord</b>.</p>
-                <div style="width: 100%; display: table;">
-                    <div style="display: table-row">
-                        <div style="width: 450px; display: table-cell;">
-                            <p><a href="/faq">FAQ</a></p>
-                        </div>
-                        <div style="width: 450px; display: table-cell;">
-                            <p><a href="https://discord.com/invite/onixclient">Discord</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post-4">
-                <h2>Potential errors</h2>
-                <p>"Architecture error" - You have minecraft <b>32</b>-bit installed (<b>Isn't supported</b>)</p>
-                <p>"Weird error happened during injecting" - Try <b>disabling</b> your antivirus/<b>excluding</b> the launcher.</p>
-                <p>"Unsupported version" - OnixClient <b>doesn't</b> support the minecraft version you currently have.</p>
-                <p>Doesnt start at all - try <b>disabling</b> your antivirus/<b>excluding</b> the launcher.</p>
-                <p>Launch does nothing - try <b>disabling</b> your antivirus/<b>excluding</b> the launcher.</p>
-                <p>Is your issue not listed here or is in not clear? view the <a href="/faq">FAQ</a> </p>
-            </div>
-        </div>
-        <script src="scripts/MobileBlock.js"></script>
-        <script src="scripts/FontSwitch.js"></script>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
     </body>
 </html>
