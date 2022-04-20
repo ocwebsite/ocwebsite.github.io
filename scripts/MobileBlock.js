@@ -13,7 +13,7 @@ sad_face.addEventListener("click", () => {
     gc.style.display="";
 });
 download.addEventListener("click", () =>{
-    if (value === '1'){
+    if (!navigator.userAgent.includes("Windows")){
         popup.style.display="block";
         nav.style.display="none";
         gc.style.display="none";
