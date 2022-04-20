@@ -1,6 +1,6 @@
 let popup = document.getElementById("popup")
 let nav = document.getElementById("nav")
-let gc = document.getElementById("grid-container")
+let gc = document.getElementById("main")
 let d = document.getElementById("device");
 let sad_face = document.getElementById('unblock_text');
 let download = document.getElementById("download");
