@@ -1,6 +1,6 @@
 # Onix Client Official Website
 
-## Contributers
+## Contributors
 - [@Visowdy](https://github.com/Vitsowdy)
 - [@h-m-m-m](https://github.com/h-m-m-m) 
 - [@EpiclyRaspberry](https://github.com/EpiclyRaspberry) 
