@@ -1,6 +1,6 @@
 body {
     background-color: #2d2d37;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     color: #dedef5;
 }
 
@@ -15,10 +15,6 @@ main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     font-size: 60px;
     color: #dedef5;
-}
-
-.content404 {
-    text-align: center;
 }
 
 a {
