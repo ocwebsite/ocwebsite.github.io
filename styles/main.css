@@ -189,3 +189,28 @@ b {
 	font-size: 30px;
 	size: 50px;
 }
+
+code {
+	color: #ebab34;
+	background-color: #454545;
+}
+
+.main {
+	margin: 10px;
+	line-height: 1.5;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table th, table td{
+	padding: 5px;
+	border: solid 1px #777;
+	color:white;
+}
+
+table th{
+	background-color:blue;
+	color:white;
+}
