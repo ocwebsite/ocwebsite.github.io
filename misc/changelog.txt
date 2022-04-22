@@ -1,4 +1,4 @@
-Changelog for Onix Client 2.71[n]
+Changelog for Onix Client 2.72[n]
 [n]
 Client:[n]
 - Updated to 1.18.30[n]
