@@ -79,12 +79,12 @@ b {
 }
 
 .topnav a:hover {
-	background-color: #45C0E6;
+	background-color: #45c0e6;
 	color: white;
 }
 
 .topnav a.active {
-	background-image: url(https://i.postimg.cc/xdnt6yRV/onix-client-gradient.png);
+	background-image: linear-gradient(to top right, #1e8dd7 15%, #01feda);
 	background-color: #008fc1;
 	background-size: cover;
 }
