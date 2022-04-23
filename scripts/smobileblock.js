@@ -1,12 +1,10 @@
-let popup = document.getElementById("popup")
-let topnav = document.getElementById("topnav")
-let gc = document.getElementById("grid-container")
-let d = document.getElementById("device");
 let sad_face = document.getElementById('unblock_text');
 let download = document.getElementById("download");
+let topnav = document.getElementById("topnav");
+let popup = document.getElementById("popup");
+let gc = document.getElementById("hide");
 
 sad_face.addEventListener("click", () => {
-	//alert('Unblocked mode activated');
     popup.style.display="none";
     topnav.style.display="";
     gc.style.display="";
