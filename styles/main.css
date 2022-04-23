@@ -78,8 +78,19 @@ b {
 }
 
 .topnav a:hover {
-	background-color: #45C0E6;
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+font-family: 'IBM Plex Sans';
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 4px; 
+border-image: url(https://i.postimg.cc/xdnt6yRV/onix-client-gradient.png) 30 stretch;
 }
+
 
 .topnav a.active {
 	background-color: #008fc1;
