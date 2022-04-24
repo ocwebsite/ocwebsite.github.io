@@ -16,7 +16,7 @@ download.addEventListener("click", () =>{
         topnav.style.display="none";
         gc.style.display="none";
         }   else    {
-            alert("By downloading this file you agree to license!");
+            alert("By owning this file you agree to the license!");
             window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
         }
 });
@@ -26,7 +26,7 @@ download2.addEventListener("click", () =>{
     topnav.style.display="none";
     gc.style.display="none";
     }   else    {
-        alert("By downloading this file you agree to license!");
+        alert("By owning this file you agree to the license!");
         window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
     }
 });
