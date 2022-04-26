@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Onix Client - FAQ</title>
         <link rel="stylesheet" href="styles/main.min.css">
+        <link rel="preload" href="https://HugoNotHere.github.io">
         <meta content="Onix Client FAQ" property="og:title">
         <meta content="Onix Client - Frequently Asked Questions" property="og:site_name">
         <meta content="The Onix Client Frequently Asked Questions, this includes but isn't limited to: How to set it up? How do i make custom modules? Why did the injection fail?" property="og:description">
@@ -13,28 +14,23 @@
     </head>
     <body>
         <div class="popup" id="popup">
-            <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
-            <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
+            <h1 id="unblock_text" style="color: brown;">:(</h1>
+            <h1>Onix client doesn't support your device.</h1>
         </div>
         <div class="topnav" id="topnav">
             <img src="assets/logo.png" alt="Logo">
-            <a style="font-weight: bold;" href="/index.html">Home</a>
-            <a style="font-weight: bold;" id="download" href="#">Download</a>
-            <a style="font-weight: bold;" href="https://discord.com/invite/onixclient">Discord</a>
-            <a style="font-weight: bold;" class="active" <a style="font-weight: bold;" href="/faq.html">FAQ</a>
-            <a style="font-weight: bold;" href="/license.html">License</a>
+            <a href="/index">Home</a>
+            <a href="#" id="download">Download</a>
+            <a href="https://discord.com/invite/onixclient">Discord</a>
+            <a href="/faq" class="active">FAQ</a>
+            <a href="/license">License</a>
+            <a href="/patreon">Patreon</a>
             <!--a href="/changelog">Changelog</a-->
-            <a style="font-weight: bold;" href="/patreon.html">Patreon</a>
         </div>
-        <div class="main">
-          <h1 style="text-align:center">Onix Client FAQ</h1>
+        <div class="main" id="hide">
+            <h1>Onix Client FAQ</h1>
+            <iframe title="OC FAQ" height="10100" src="https://HugoNotHere.github.io"></iframe>
+        </div>
+        <script src="scripts/smobileblock.js"></script>
     </body>
-<iframe id="OC FAQ"
-    title="OC FAQ"
-    width="1880"
-    height=17080
-    scrolling="yes"
-    src="https://HugoNotHere.github.io">
-</iframe>
-<script src="scripts/SMobileBlock.js"></script>
 </html>
