@@ -12,7 +12,7 @@ function readFile(pathOfFileToReadFrom)
 var text2 = readFile("./misc/changelog.txt");
 
 var _head = document.getElementById("descr");
-var changelogtext = document.getElementsByClassName("changelog");
+var changelogtext = document.getElementById("changelog")
 
 var text = "";
 var text3;
@@ -23,7 +23,7 @@ for (let i=0;i<text3.length;i++){
 }
 
 window.onload = function(){
-    changelogtext[0].innerHTML = text
+    changelogtext.innerText = text;
 }
 
 _head.onload = function(){
