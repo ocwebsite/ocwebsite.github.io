@@ -224,6 +224,10 @@ table th{
 }
 
 iframe {
-	width: 1880px;
+	width: 100%;
 	border: 0;
+}
+
+.changelog {
+	color: white;
 }
