@@ -21,4 +21,34 @@
 <p><b>sendLocalData([string]identifier, [string]message)</b><br>sends a message to other modules/command<br>
 the identifier can be anything and you check if it match the one it should on the receiver side<br>
 only string can be sent this way, be careful for infinite loops</p><br><br>
+<b><b>event.listen([string]event,[function]function)</b><br>
+Listens for events</p><br>
+events:<br>
+<table>
+	<tr>
+		<th>Event</th>
+		<th>Description</th>
+		<th>Function args.</th>
+	</tr>
+	<tr>
+		<td>KeyboardInput</td>
+		<td>Listens for keyboard inputs</td>
+		<td><code>key</code> int, the pressed key<br><code>down</code> bool, returns true if the key was pressed, false if not</td>
+	</tr>
+	<tr>
+		<td>MouseInput</td>
+		<td>Listens for mouse inputs</td>
+		<td><code>key</code> int, the pressed key<br><code>down</code> bool, returns true if the key was pressed, false if not</td>	
+	</tr>
+	<tr>
+		<td>ChatMessageAdded</td>
+		<td>Listens ingame chat</td>
+		<td><code>message</code> string, the content<br><code>username</code> string, username of the sender<br><code>type</code> number, message type</td>
+	</tr>
+	<tr>
+		<td>LocalDataReceived</td>
+		<td>Receives Data sent by a command or a module</td>
+		<td><code>identifier</code> string, id of the data received<br><code>content</code> string, data content</td>
+	</tr>
+	
 </body>
