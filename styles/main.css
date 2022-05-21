@@ -70,6 +70,7 @@ b {
 
 .topnav a {
 	text-decoration: none;
+	border-radius: 10px;
 	text-align: center;
 	padding: 16px 16px;
 	font-weight: bold;
@@ -89,32 +90,14 @@ b {
 	background-size: cover;
 }
 
-.grid-container {
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-areas:
-	"post-1 post-1 post-1 post-1"
-	"post-2 post-2 post-3 post-3"
-	"post-2 post-2 post-3 post-3"
-	"post-4 post-4 post-4 post-4"
-	"post-4 post-4 post-4 post-4";
-	display: grid;
+.flexable {
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	display: flex;
 }
 
-.grid-container-l {
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(6, 1fr);
-	grid-template-areas:
-	"void1 post-1-l post-1-l void2"
-	"void1 post-2-l post-2-l void2"
-	"void1 post-2-l post-2-l void2"
-	"void1 post-2-l post-2-l void2"
-	"void1 post-2-l post-2-l void2"
-	"void1 post-2-l post-2-l void2";
-	display: grid;
-}
-
-.grid-container a {
+.flexable a {
 	padding: 10px 14px 10px 10px;
 	box-shadow: 0 1px 5px #0ff;
 	text-decoration: none;
@@ -125,42 +108,33 @@ b {
 	color: #ffffff;
 }
 
-.post-1-l {
-	grid-area: post-1-l;
-	text-align: center;
-}
-
-.post-2-l {
-	grid-area: post-2-l;
-	text-align: left;
-	font-size: 14px;
-	padding: 10px;
-}
-
 .post-1 {
-	grid-area: post-1;
 	text-align: center;
 }
 
 .post-2 {
 	text-align: center;
-	grid-area: post-2;
 	font-size: 17px;
 	padding: 10px;
 }
 
 .post-3 {
 	text-align: center;
-	grid-area: post-3;
 	font-size: 17px;
 	padding: 10px;
 }
 
 .post-4 {
 	text-align: center;
-	grid-area: post-4;
 	font-size: 17px;
 	padding: 20px;
+}
+
+.post-5 {
+	text-align: left;
+	font-size: 14px;
+	padding: 10px;
+	width: 80%;
 }
 
 .popup {
@@ -181,8 +155,9 @@ b {
 	height: min-content;
 	border-style: solid;
 	border-radius: 4px;
+	width: content-box;
 	border-width: 1px;
-	width: 100%;
+	margin: 0 auto;
 }
 
 .code_embed{
@@ -230,4 +205,14 @@ iframe {
 
 .changelog {
 	color: white;
+}
+
+.cssdebug {
+	display: none;
+}
+
+@media only screen and (min-device-width: 480px) {
+	.post-5 {
+		width: 60%;
+	}
 }

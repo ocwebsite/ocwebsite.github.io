@@ -1,8 +1,8 @@
 let sad_face = document.getElementById('unblock_text');
 let download = document.getElementById("download");
-let gc = document.getElementById("grid-container");
 let topnav = document.getElementById("topnav");
 let popup = document.getElementById("popup");
+let gc = document.getElementById("flexable");
 
 sad_face.addEventListener("click", () => {
     popup.style.display="none";
