@@ -8,6 +8,7 @@ sad_face.addEventListener("click", () => {
     popup.style.display="none";
     topnav.style.display="";
     gc.style.display="";
+    title_big_body.style.display="";
 });
 
 download.addEventListener("click", () =>{
@@ -15,6 +16,7 @@ download.addEventListener("click", () =>{
         popup.style.display="block";
         topnav.style.display="none";
         gc.style.display="none";
+        title_big_body.style.display = "none";
         }   else    {
             alert("The download is in the #download channel in the discord!");
             window.open("https://discord.gg/onixclient");
@@ -25,6 +27,7 @@ download2.addEventListener("click", () =>{
     popup.style.display="block";
     topnav.style.display="none";
     gc.style.display="none";
+    title_big_body.style.display = "none";
     }   else    {
         alert("The download is in the #download channel in the discord!");
         window.open("https://discord.gg/onixclient");
