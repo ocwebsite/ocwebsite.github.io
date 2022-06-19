@@ -16,7 +16,7 @@ download.addEventListener("click", () =>{
         topnav.style.display="none";
         gc.style.display="none";
         }   else    {
-            alert("By owning this file you agree to the license!");
-            window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
+            alert("By owning this discord you agree to the license!");
+            window.open("https://discord.gg/onixclient");
         }
 });
