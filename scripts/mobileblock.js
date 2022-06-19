@@ -16,8 +16,8 @@ download.addEventListener("click", () =>{
         topnav.style.display="none";
         gc.style.display="none";
         }   else    {
-            alert("By owning this file you agree to the license!");
-            window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
+            alert("The download is in the #download channel in the discord!");
+            window.open("https://discord.gg/onixclient");
         }
 });
 download2.addEventListener("click", () =>{
@@ -26,7 +26,7 @@ download2.addEventListener("click", () =>{
     topnav.style.display="none";
     gc.style.display="none";
     }   else    {
-        alert("By owning this file you agree to the license!");
-        window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
+        alert("The download is in the #download channel in the discord!");
+        window.open("https://discord.gg/onixclient");
     }
 });
