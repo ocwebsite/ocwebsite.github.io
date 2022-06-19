@@ -16,7 +16,7 @@ download.addEventListener("click", () =>{
         topnav.style.display="none";
         gc.style.display="none";
         }   else    {
-            alert("By owning this discord you agree to the license!");
+            alert("The download is in the #download channel in the discord");
             window.open("https://discord.gg/onixclient");
         }
 });
