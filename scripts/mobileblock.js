@@ -3,12 +3,13 @@ let download = document.getElementById("download");
 let topnav = document.getElementById("topnav");
 let popup = document.getElementById("popup");
 let gc = document.getElementById("flexable");
+let title = document.getElementById("title_big_body");
 
 sad_face.addEventListener("click", () => {
     popup.style.display="none";
     topnav.style.display="";
     gc.style.display="";
-    title_big_body.style.display="";
+    title.style.display="";
 });
 
 download.addEventListener("click", () =>{
