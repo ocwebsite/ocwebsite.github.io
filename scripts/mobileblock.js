@@ -3,11 +3,13 @@ let download = document.getElementById("download");
 let topnav = document.getElementById("topnav");
 let popup = document.getElementById("popup");
 let gc = document.getElementById("flexable");
+let title = document.getElementById("title_big_body");
 
 sad_face.addEventListener("click", () => {
     popup.style.display="none";
     topnav.style.display="";
     gc.style.display="";
+    title.style.display="";
 });
 
 download.addEventListener("click", () =>{
@@ -15,9 +17,10 @@ download.addEventListener("click", () =>{
         popup.style.display="block";
         topnav.style.display="none";
         gc.style.display="none";
+        title_big_body.style.display = "none";
         }   else    {
-            alert("By owning this file you agree to the license!");
-            window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
+            alert("The download is in the #download channel in the discord!");
+            window.open("https://discord.gg/onixclient");
         }
 });
 download2.addEventListener("click", () =>{
@@ -25,8 +28,9 @@ download2.addEventListener("click", () =>{
     popup.style.display="block";
     topnav.style.display="none";
     gc.style.display="none";
+    title_big_body.style.display = "none";
     }   else    {
-        alert("By owning this file you agree to the license!");
-        window.open("https://github.com/notcarlton/OnixLauncher/releases/latest/download/OnixLauncher.exe");
+        alert("The download is in the #download channel in the discord!");
+        window.open("https://discord.gg/onixclient");
     }
 });
