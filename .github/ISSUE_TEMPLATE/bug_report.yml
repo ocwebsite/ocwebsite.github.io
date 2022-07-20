@@ -21,6 +21,7 @@ body:
     validations: 
         required: true
   - type: textarea
+    attributes:
         label: Screenshots
         description: >
             If applicable, add screenshots to help explain your problem.
