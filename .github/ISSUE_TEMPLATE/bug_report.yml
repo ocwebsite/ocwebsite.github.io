@@ -2,25 +2,29 @@ name: Bug report
 description: Report a bug about the client
 labels: bug
 body:
-  - type: input
+  - type: textarea
     attributes:
         label: Description
         description: A clear and concise description of what the bug is.
     validations:
         required: true
-  - type: input
+  - type: textarea
     attributes:
         label: Steps 
         description: Steps to reproduce the behavior.
     validations:
         required: true
-  - type: input
+  - type: textarea
     attributes:
         label: Expected behavior
         description: A clear and concise description of what you expected to happen. 
     validations: 
         required: true
-  
+  - type: textarea
+        label: Screenshots
+        description: >
+            If applicable, add screenshots to help explain your problem.
+            To add one, do `![alttext](imagelink)`
 
 
 
