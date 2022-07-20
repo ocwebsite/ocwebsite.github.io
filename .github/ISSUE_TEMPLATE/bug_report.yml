@@ -1,4 +1,5 @@
 name: Bug report 
+title: "Bug: "
 description: Report a bug about the client
 labels: bug
 body:
@@ -26,7 +27,48 @@ body:
         description: >
             If applicable, add screenshots to help explain your problem.
             To add one, do `![alttext](imagelink)`
-
+  - type: dropdown
+    attributes: 
+        label: Minecraft version
+        options:
+          - 1.16.40
+          - 1.16.100
+          - 1.16.200
+          - 1.16.201
+          - 1.16.210
+          - 1.16.220
+          - 1.16.221
+          - 1.17
+          - 1.17.2
+          - 1.17.10
+          - 1.17.11
+          - 1.17.30
+          - 1.17.32
+          - 1.17.34
+          - 1.17.40
+          - 1.17.41
+          - 1.18
+          - 1.18.1
+          - 1.18.2
+          - 1.18.10
+          - 1.18.12
+          - 1.18.30
+          - 1.18.31
+          - 1.19
+          
+  - type: dropdown
+    attributes:
+        label: Operating System 
+        options:
+          - Windows 10
+          - Windows 11
+    validations:
+        required: true
+  - type: input
+    attributes:
+        label: Windows version
+    validations:
+        required: true
 
 
 
