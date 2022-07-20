@@ -55,7 +55,8 @@ body:
           - 1.18.30
           - 1.18.31
           - 1.19
-          
+    validations:
+        required: true 
   - type: dropdown
     attributes:
         label: Operating System 
@@ -67,6 +68,18 @@ body:
   - type: input
     attributes:
         label: Windows version
+    validations:
+        required: true
+  - type: input
+    attributes:
+        label: Onix Client version 
+        description: you can get the version by pressing f3 while in a world/server
+    validations:
+        required: true
+  - type: input
+    attributes:
+        label: Discord Username
+        description: Put your discord name like Onix86#0001
     validations:
         required: true
 
