@@ -12,6 +12,7 @@
         <meta content="https://ocwebsite.github.io/assets/banner.jpg" property="og:image">
         <meta content="summary_large_image" name="twitter:card">
         <meta content="#008FC1" data-react-helmet="true" name="theme-color">
+        
     </head>
  				<body>
         <div class="popup" id="popup">
@@ -40,20 +41,12 @@
             <label for="myfile" class="fplabelstyle">
                ID:
                 <input type="file" id="myfile" name="myfile" class="fpstyle">
-                <span id="fname"></span>
+                <span id="fname">uu</span>
              </label>
             
           </div>
   							</div>
-  							<script>
-  							    let fname=document.getElementById("fname");
-  							    let input=document.getElementById("myfile");
-  							    
-  							    input.addEventListener("change",()=>{
-																		let file=document.querySelector("input[type=file]").files[0];
-                fname.innerText=file.name;
-														}))
-  							</script>
+  							<script src="scripts/account.js"></script>
 				</body>
 							 
  </html>
