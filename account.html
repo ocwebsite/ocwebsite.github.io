@@ -14,7 +14,7 @@
         <meta content="#008FC1" data-react-helmet="true" name="theme-color">
         
     </head>
- 				<body>
+    <body>
         <div class="popup" id="popup">
             <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
             <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
@@ -31,22 +31,20 @@
             <!--a href="/changelog">Changelog</a-->
         </div>
         <div class="divcenter">
-          <div><h4>Username:</h4> <input class="inputstyle"></div><br>
-           
-          <div>
+             <div><h4>Username:</h4> <input class="inputstyle"></div><br>
+            <div>
             <h4>Password:</h4>
             <input type="password" id="pwd" name="pwd" class="inputstyle">
-          </div>
-          <div class="divcenter">
+        </div>
+        <div class="divcenter" id="fpdiv">
             <label for="myfile" class="fplabelstyle">
                ID:
                 <input type="file" id="myfile" name="myfile" class="fpstyle">
-                <span id="fname">uu</span>
-             </label>
+                <span id="fname">No file chosen...</span>
+            </label>
             
-          </div>
-  							</div>
-  							<script src="scripts/account.js"></script>
-				</body>
-							 
- </html>
+        </div>
+  	  
+  	  <script src="scripts/account.js"></script>
+    </body>
+</html>

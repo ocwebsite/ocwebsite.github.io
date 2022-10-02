@@ -225,9 +225,12 @@ iframe {
 .fplabelstyle {
  background: #1d1d25;
 	border: 3px solid #252525;
-	padding: 5px;
-	margin: auto;
+	border-radius: 30px;
+ padding: 10px;
 	cursor: pointer;
+}
+#fpdiv {
+	margin-top: 15px;
 }
 .fpstyle{
 	display: none;
