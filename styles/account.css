@@ -243,3 +243,13 @@ iframe {
 	font-size: 30px;
 	color: white;
 }
+#lr { margin-top: 20px;}
+
+.btnstyle {
+	color:white;
+	background: #1d1d25;
+	border: 3px solid #252525;
+	border-radius: 30px;
+	width:370px;
+	height: 40px;
+}

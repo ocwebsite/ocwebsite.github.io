@@ -7,3 +7,5 @@ let file=document.querySelector("input[type=file]").files[0];
    
 });
 
+function login(){alert("does nothing");}
+function register(){alert("you need to make account");}
