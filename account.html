@@ -1,19 +1,59 @@
-username
-<input type="username">
-<br>
- <label for="pwd">password</label>
-<input type="password" id="pwd" name="pwd"> 
-<br>
- <label for="myfile">id</label>
-<input type="file" id="myfile" name="myfile"> 
-<br>
-<br>
- <input type="button" value="Among Us" onclick="window.alert("sometext");"> 
-<br>
-no account? :megamind:
-<br>
-buy one at our
-<a href="patreon">patreon</a>
-<br>
-<br>
-this doesnt actually get you an account but youll understand soon enough lol
+<html>
+    	<p class="cssdebug" style="font-size: 80px;">CSS DIED!!!!!!!</p>
+    <head>
+        <meta name="google-site-verification" content="IyPllO5GzQxTwfQdGHMc3wJzx5jSfcMNTSTvV0vKOtg"/> <!-- google register -->
+        <title>Onix Client: Account</title>
+        <link rel="stylesheet" href="styles/account.css">
+        <link rel="prefetch" href="https://HugoNotHere.github.io">
+        <meta content="Onix Client" property="og:title">
+        <meta content="Onix Client" property="og:site_name">
+        <meta content="Onix Client is an all-in-one legit PVP client for Minecraft Windows 10. Supported from 1.16.40 to 1.19.20." property="og:description">
+        <meta content="https://ocwebsite.github.io/" property="og:url">
+        <meta content="https://ocwebsite.github.io/assets/banner.jpg" property="og:image">
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="#008FC1" data-react-helmet="true" name="theme-color">
+    </head>
+ 				<body>
+        <div class="popup" id="popup">
+            <h1 id="unblock_text" style="width: 600px; margin: 0 auto; text-align: center; color: brown;">:(</h1>
+            <h1 style="width: 600px; margin: 0 auto; text-align: center;">Onix client doesn't support your device.</h1>
+        </div>
+        <div class="topnav" id="topnav">
+            <img src="assets/logo.png" alt="Logo">
+            <a href="/index">Home</a>
+            <a href="#" id="download">Download</a>
+            <a href="https://discord.com/invite/onixclient">Discord</a>
+            <a href="/faq">FAQ</a>
+            <a href="/license">License</a>
+            <a href="/patreon">Patreon</a>
+            <a href="/account" class="active">Account</a>
+            <!--a href="/changelog">Changelog</a-->
+        </div>
+        <div class="divcenter">
+          <div><h4>Username:</h4> <input class="inputstyle"></div><br>
+           
+          <div>
+            <h4>Password:</h4>
+            <input type="password" id="pwd" name="pwd" class="inputstyle">
+          </div>
+          <div class="divcenter">
+            <label for="myfile" class="fplabelstyle">
+               ID:
+                <input type="file" id="myfile" name="myfile" class="fpstyle">
+                <span id="fname"></span>
+             </label>
+            
+          </div>
+  							</div>
+  							<script>
+  							    let fname=document.getElementById("fname");
+  							    let input=document.getElementById("myfile");
+  							    
+  							    input.addEventListener("change",()=>{
+																		let file=document.querySelector("input[type=file]").files[0];
+                fname.innerText=file.name;
+														}))
+  							</script>
+				</body>
+							 
+ </html>
