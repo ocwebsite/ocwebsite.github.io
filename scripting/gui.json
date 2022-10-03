@@ -2,10 +2,27 @@
   "title":"GUI",
   "desc":"test module 123",
   "funcs":[
-    {"func":"testfunc(a,b,c)",
-     "desc":"a test function"},
-    {"func":"func2(d,e,f)",
-     "desc":"function 2 because why not"}
+    {"func":"gui.width()",
+     "desc":"Returns you the width of the screen (number)"},
+    {"func":"gui.height()",
+     "desc":"Returns you the height of the screen (number)"},
+    {"func":"gui.scale()",
+     "desc":"Returns you the minecraft guiscale (number)"},
+    {"func":"gui.mouseGrabbed()",
+     "desc":"Returns you if the mouse is grabbed (if its not grabbed its most likely in an ui) (boolean)"},
+    {"func":"gui.setGrab([boolean])",
+     "desc":"Sets the grabbed status of the mouse, can be used to make menus"},
+    {"func":"gui.mousex()",
+     "desc":"Returns the x position of the mouse (number)"},
+    {"func":"gui.mousey()",
+     "desc":"Returns the y position of the mouse (number)"},
+    {"func":"gui.showScreen('ScreenName')",
+     "desc":"Opens the client screen with that name, returns [boolean](open or no)"},
+    {"func":"gui.clickSound()",
+     "desc":"Plays the click sound, to make button clicks have a sound"},
+    {"func":"gui.sound('minecraft.sound.name'",
+     "desc":"Plays minecraft sound, <a href="https://www.digminecraft.com/lists/sound_list_pe.php">a list can be found here</a>"}
+     
    ]
 }
      
