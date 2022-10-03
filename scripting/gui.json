@@ -1,0 +1,11 @@
+{
+  "title":"GUI",
+  "desc":"test module 123",
+  "funcs":[
+    {"func":"testfunc(a,b,c)",
+     "desc":"a test function"},
+    {"func":"func2(d,e,f)",
+     "desc":"function 2 because why not"}
+   ]
+}
+     

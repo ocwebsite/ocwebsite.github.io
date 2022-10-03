@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Page title</title>
+    </head>
+    <body>
+        <div class="topbar">
+            
+            <!--img src="assets/biglogo.png" width="45" height="45" alt="logo"-->
+            <span class="name">
+                Scripting Documentation
+            </span>
+            <span class="navbar">
+                <label for="libraries">
+                    <b>Library</b>
+                    <select id="libraries" class="selectstyle">
+                        <option>Select...</option>
+                        <option value="gui">GUI</option>
+                        <option value="dimension">Dimension</option>
+                        <option value="player">Player</option>
+                        <option value="server">Server</option>
+                        <option value="client">Client</option>
+                        <option value="gfx">GFX</option>
+                        <option value="fs">FS(File System)</option>
+                        <option value="cs">Client Settings</option>
+                        <option value="net">Networking</option>
+                    </select>
+                </label>
+                <label for="tables">
+                    <b>Tables</b>
+                    <select id="tables">
+                        <option>Select...</option>
+                        <option value="attr">Attribute</option>
+                        <option value="attrs">Attributes</option>
+                        <option value="biome">Biome</option>
+                        <option value="block">Block</option>
+                        <option value="effect">Effect</option>
+                        <option value="font">Font</option>
+                        <option value="file">File</option>
+                        <option value="inventory">Inventory</option>
+                        <option value="item">Item</option>
+                        <option value="module">Module</option>
+                        <option value="vmodule">Visual Module</option>
+                        <option value="smodule">Script Module</option>
+                        <option value="setting">Setting</option>
+                        <option value="csetting">Color Setting</option>
+                    </select>
+                </label>
+            </span>
+        </div><br>
+        <p id="title" style="font-family: 'Poppins', sans-serif; font-size:40px;">Selected title</p>
+        <span id="content">Select an item to show it's documentation.</span>
+        <script src="script.js"></script>
+    </body>
+    
+</html>

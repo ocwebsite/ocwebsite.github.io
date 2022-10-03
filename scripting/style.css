@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    background: #171717;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    float: right;
+    background: #1e1e1e;
+    border-radius: 30px;
+    
+}
+.navbar a {
+ transition: 0.3s;
+ text-decoration: none;
+	border-radius: 30px;
+	text-align: center;
+	padding: 16px 16px;
+	font-weight: bold;
+	font-size: 10px;
+	color: #888888;
+	float: left;
+}
+.navbar a:hover {
+ background-color: #45c0e6;
+	color: white;
+}
+.navbar a.active {
+    color: #f2f2f2;
+}
+.navbar a.download {
+    color:#0e66ba;
+    background: #192f41;
+    
+}
+.topbar img{
+ float: left;
+}
+.name{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+
+.centerdiv {
+    text-align: center;
+}
+
+.cb {
+    border: 2px solid #333333;
+    width: 100%;
+    background: #111111;
+    height: 90%;
+    border-radius: 30px;
+    padding: 20px;
+}
+.cb b {
+    color: #0e66ba;
+}
+.navbar button {
+ 	color:white;
+	background: #1d1d25;
+	border: 3px solid #252525;
+	border-radius: 30px;
+	width:auto;
+	height: 40px;
+	float: left;
+}
+.navbar label {
+ transition: 0.3s;
+ text-decoration: none;
+	border-radius: 30px;
+	text-align: center;
+	padding: 16px 16px;
+	font-weight: bold;
+	font-size: 10px;
+	color: white;
+	float: left;
+}
+.navbar label:hover {
+ background-color: #45c0e6;
+	color: white;
+}
+.navbar label:active {
+    color: #f2f2f2;
+}
+
+.navbar label select{
+    background: #444444;
+    color: white;
+    border: 2px solib #111111;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+}
+.funcstyle {
+ border: 2px solid orangered;
+ background: darkdarkblue;
+ color: lightcyan;
+ padding: 5px;
+ font-size: 30px;
+ border-radius: 30px;
+}
