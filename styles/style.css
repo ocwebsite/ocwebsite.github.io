@@ -40,6 +40,9 @@ html, body {
     background: #192f41;
     
 }
+.navbar a.download:hover {
+  color: #83daff;
+}
 .topbar img{
  float: left;
 }
