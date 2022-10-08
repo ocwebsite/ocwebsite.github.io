@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
 html, body {
     font-family: "Roboto", sans-serif;
     background: #171717;
@@ -55,9 +54,9 @@ html, body {
     font-weight: 700;
 }
 
-
 .centerdiv {
     text-align: center;
+    animation: TransitionIn 1s;
 }
 
 .cb {
@@ -70,4 +69,30 @@ html, body {
 }
 .cb b {
     color: #0e66ba;
+}
+
+.name {
+  animation: TextAnimation 1.7s infinite alternate;
+}
+
+@keyframes TransitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes TextAnimation {
+  from {
+    color: ;
+    opacity: 0;
+  }
+  to {
+    color: ;
+    opacity: 1;
+  }
 }
