@@ -8,6 +8,10 @@ html, body {
     padding: 10px;
     cursor: alias;
     background-image: url("/assets/hwbanner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
 
 .navbar {
