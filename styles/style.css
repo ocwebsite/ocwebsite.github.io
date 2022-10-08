@@ -7,6 +7,8 @@ html, body {
     color: white;
     font-size: 20px;
     padding: 10px;
+    cursor: alias;
+    background-image: url("/assets/hwbanner.png");
 }
 
 .navbar {
