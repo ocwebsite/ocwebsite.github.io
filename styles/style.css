@@ -7,50 +7,51 @@ html, body {
     font-size: 20px;
     padding: 10px;
     cursor: alias;
-    background-image: url("/assets/hwbanner.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
 }
 
 .navbar {
     float: right;
     background: #1e1e1e;
     border-radius: 30px;
-    
 }
+
 .navbar a {
- transition: 0.3s;
- text-decoration: none;
+  transition: 0.3s;
+  text-decoration: none;
 	border-radius: 30px;
 	text-align: center;
 	padding: 16px 16px;
- font-family: 'Poppins', sand-serif;
- font-weight: 400;
+  font-family: 'Poppins', sand-serif;
+  font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 0.1em;
 	color: #888888;
 	float: left;
 }
+
 .navbar a:hover {
  background-color: #45c0e6;
 	color: white;
 }
+
 .navbar a.active {
     color: #f2f2f2;
 }
+
 .navbar a.download {
     color:#0e66ba;
     background: #192f41;
     
 }
+
 .navbar a.download:hover {
   color: #83daff;
 }
+
 .topbar img{
  float: left;
 }
+
 .name{
     float: left;
     font-family: 'Poppins', sans-serif;
@@ -65,12 +66,14 @@ html, body {
 
 .cb {
     border: 2px solid #333333;
-    width: 100%;
     background: #111111;
-    height: 90%;
     border-radius: 30px;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 .cb b {
     color: #0e66ba;
 }
@@ -84,6 +87,7 @@ html, body {
     opacity: 0;
     transform: translateY(100px);
   }
+  
   to {
     opacity: 1;
     transform: translateY(0px);
@@ -95,6 +99,7 @@ html, body {
     color: ;
     opacity: 0;
   }
+  
   to {
     color: ;
     opacity: 1;
