@@ -20,13 +20,14 @@ html, body {
   text-decoration: none;
 	border-radius: 30px;
 	text-align: center;
-	padding: 16px 16px;
+	padding: 15px 15px;
   font-family: 'Poppins', sand-serif;
   font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 0.1em;
 	color: #888888;
 	float: left;
+	max-width: 10;
 }
 
 .navbar a:hover {
@@ -35,13 +36,12 @@ html, body {
 }
 
 .navbar a.active {
-    color: #f2f2f2;
+    color: #0e66ba;
 }
 
 .navbar a.download {
     color:#0e66ba;
     background: #192f41;
-    
 }
 
 .navbar a.download:hover {
@@ -80,6 +80,15 @@ html, body {
 
 .name {
   animation: TextAnimation 1.7s infinite alternate;
+}
+
+h2 {
+   font-family: 'Poppins', sand-serif;
+}
+
+p {
+  font-size: 25px;
+  opacity: 0.6;
 }
 
 @keyframes TransitionIn {
