@@ -1,21 +1,21 @@
 function readFile(pathOfFileToReadFrom)
     {
-        var request = new XMLHttpRequest();
+        let request = new XMLHttpRequest();
         request.open("GET", pathOfFileToReadFrom, false);
         request.send(null);
-        var returnValue = request.responseText;
+        let returnValue = request.responseText;
 
         return returnValue;
     }
 
 
-var text2 = readFile("./misc/changelog.txt");
+let text2 = readFile("./misc/changelog.txt");
 
-var _head = document.getElementById("descr");
-var changelogtext = document.getElementById("changelog")
+let _head = document.getElementById("descr");
+let changelogtext = document.getElementById("changelog")
 
-var text = "";
-var text3;
+let text = "";
+let text3;
 
 text3 = text2.split("[n]")
 for (let i=0;i<text3.length;i++){
