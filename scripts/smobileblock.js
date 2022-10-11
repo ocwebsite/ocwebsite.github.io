@@ -16,7 +16,7 @@ download.addEventListener("click", () =>{
         topnav.style.display="none";
         gc.style.display="none";
         }   else    {
-            alert("The download is in the [beta download channel](https://discord.com/channels/814195071356370977/993706556728283198) in the [discord!](discord.gg/onixclient)");
+            alert("The download is in the #beta-download channel in the discord!");
             window.open("https://discord.gg/onixclient");
         }
 });
