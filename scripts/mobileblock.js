@@ -19,7 +19,7 @@ download.addEventListener("click", () =>{
         gc.style.display="none";
         title_big_body.style.display = "none";
         }   else    {
-            alert("The download is in the #beta-download channel in the discord!");
+            alert("The download is in the #download channel in the discord!");
             window.open("https://discord.gg/onixclient");
         }
 });
