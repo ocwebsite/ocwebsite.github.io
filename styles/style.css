@@ -2,7 +2,7 @@
 
 html, body {
     font-family: "Roboto", sans-serif;
-    background: #171717;
+    background: #181818;
     color: white;
     font-size: 20px;
     padding: 10px;
@@ -48,15 +48,53 @@ html, body {
   color: #83daff;
 }
 
+.downloadButton a {
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Poppins', sand-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: white;
+  float: center;
+  max-width: 10;
+}
+.downloadButton a:hover{
+  color: white;
+}
+.downloadButton a.active {
+    color: #0e66ba;
+}
+.downloadButton {
+  transition: 0.3s;
+  background: #192f41;
+  padding: 18px 18px;
+  border-radius: 17px;
+  color: #83daff;
+}
+
+.downloadButton:hover {
+  background: #0e66ba;
+  color: white;
+}
+
+.downloadButton:active {
+  background: #0e66ba;
+  color: white;
+}
+
+
 .topbar img{
  float: left;
 }
 
 .name{
-    float: left;
+    float: center;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 700;
+
 }
 
 .centerdiv {
