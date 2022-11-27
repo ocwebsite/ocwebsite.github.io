@@ -6,7 +6,20 @@ html, body {
     color: white;
     font-size: 20px;
     padding: 10px;
-    cursor: alias;
+}
+.mainDownloadButton {
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background: #4a4a4a2e;
+  border-radius: 60px;
+  color: #ffffff;
+  font-family: "Poppins", sand-serif;
 }
 
 .navbar {
@@ -31,7 +44,6 @@ html, body {
 }
 
 .navbar a:hover {
- background-color: #45c0e6;
 	color: white;
 }
 
@@ -47,16 +59,22 @@ html, body {
 .navbar a.download:hover {
   color: #83daff;
 }
-
+.downloadButton {
+  transition: 0.3s;
+  background: #192f41;
+  padding: 18px 18px;
+  border-radius: 17px;
+  color: #83daff;
+}
 .downloadButton a {
   transition: 0.3s;
+  color: white;
   text-decoration: none;
   text-align: center;
   font-family: 'Poppins', sand-serif;
   font-weight: 400;
   font-size: 30px;
   letter-spacing: 0.1em;
-  color: white;
   float: center;
   max-width: 10;
 }
@@ -66,13 +84,7 @@ html, body {
 .downloadButton a.active {
     color: #0e66ba;
 }
-.downloadButton {
-  transition: 0.3s;
-  background: #192f41;
-  padding: 18px 18px;
-  border-radius: 17px;
-  color: #83daff;
-}
+
 
 .downloadButton:hover {
   background: #0e66ba;
@@ -125,10 +137,38 @@ h2 {
 }
 
 p {
-  font-size: 25px;
-  opacity: 0.6;
+  font-family: 'Poppins', sand-serif;
 }
-
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 3px;
+  color: rgb(100, 100, 100);
+}
+.images {
+  justify-content: center;
+  border-radius: 10px;
+}
+.overlapA {
+  position: relative;
+  left: -200px;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  outline: 4px solid #111111;
+}
+.overlapB{
+  position: relative;
+  top: -100px;
+  left: 200px;
+  border-radius: 30px;
+  justify-content: center;
+  outline: 4px solid #111111;
+}
+hr {
+  border: 1px solid rgb(100, 100, 100);
+}
 @keyframes TransitionIn {
   from {
     opacity: 0;
@@ -143,12 +183,10 @@ p {
 
 @keyframes TextAnimation {
   from {
-    color: ;
     opacity: 0;
   }
   
   to {
-    color: ;
     opacity: 1;
   }
 }
