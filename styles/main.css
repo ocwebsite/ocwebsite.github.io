@@ -61,6 +61,7 @@ b {
 .topnav {
 	background-color: #252525;
 	overflow: hidden;
+	padding: 8px 5px;
 }
 
 .topnav img {
